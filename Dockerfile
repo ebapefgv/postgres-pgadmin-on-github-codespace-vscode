@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/ruby:3.3
+FROM mcr.microsoft.com/devcontainers/python:1-3.11-bullseye
 
 RUN mkdir /workspace
 WORKDIR /workspace
